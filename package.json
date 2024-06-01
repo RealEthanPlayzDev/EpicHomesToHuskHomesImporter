@@ -1,0 +1,21 @@
+{
+  "name": "epichomesyamlparser",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "RadiatedExodus",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "yaml": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "@types/uuid": "^9.0.8",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "node dist/index.js"
+  }
+}
